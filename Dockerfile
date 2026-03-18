@@ -1,8 +1,8 @@
-FROM quay.io/qasimtech/mega-md:latest
+FROM quay.io/mrfrank/subzero-md:latest
 
 WORKDIR /root/mega-mdx
 
-RUN git clone https://github.com/GlobalTechInfo/MEGA-MDX . && \
+RUN git clone https://github.com/mrfr8nk/SUBZERO-MD . && \
     npm install && \
     npm run build
 
